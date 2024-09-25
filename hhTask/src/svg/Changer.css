@@ -1,0 +1,13 @@
+.rotate {
+  transform: rotate(180deg);
+}
+
+.chenger {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 1s;
+}
+
+/* .chenger svg {
+} */

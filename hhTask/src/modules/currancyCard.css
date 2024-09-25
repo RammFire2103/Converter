@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+.image-container {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 23px;
+  border: 1px solid gray;
+  margin-right: 13px;
+}
+
+.image-container img {
+  width: 45px;
+  height: 45px;
+}
+
+.drop-down {
+  width: 65px;
+  height: 125px;
+  font-size: 20px;
+  font-family: "Roboto";
+  display: none;
+  flex-direction: column;
+  background-color: #efefef;
+  z-index: 99999;
+  border-radius: 5px;
+  overflow: auto;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  left: -6px;
+}
+
+.drop-down::-webkit-scrollbar {
+  width: 7px;
+  background-color: #d9d9e6;
+  border-radius: 10px;
+}
+.drop-down::-webkit-scrollbar-thumb {
+  background-color: #223c50;
+}
+.drop-down::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 3px solid #050c26;
+}
+
+.drop-down button {
+  padding: 0px;
+  height: 25px;
+  border-radius: 2px;
+  color: #3c3c3c;
+}
+
+.dropdown-container {
+  position: relative;
+  width: 65px;
+  margin-right: 13px;
+}
+
+.currency-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-container input {
+  text-align: right;
+  color: #3c3c3c;
+  font-size: 20px;
+  font-family: "Roboto";
+  width: 140px;
+  height: 45px;
+  border-radius: 7px;
+  background-color: #efefef;
+  border: none;
+}
+
+.currency-container input:focus {
+  outline: none;
+}
+
+.current-currancy {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  font-family: "Roboto";
+  color: #26278d;
+}
+
+.current-currancy div {
+  line-height: 25px;
+  display: inline-block;
+}
+
+.show {
+  display: flex;
+}
